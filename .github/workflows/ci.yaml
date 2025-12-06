@@ -1,0 +1,30 @@
+#
+# continuous integration workflow
+#
+name: build repo
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+    branches: [master]
+
+jobs:
+  build-project:
+    name: Build Project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4.2.2
+      - name: Install Gtest
+        run: sudo apt install -y libgtest-dev
+      - name: Build Project
+        uses: threeal/cmake-action@v2.1.0
+        with:
+          options: |
+            BUILD_TESTING=ON
+      - name: Run Tests
+        run: |
+         cd build && make test && make format_check
