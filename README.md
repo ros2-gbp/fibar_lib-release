@@ -1,0 +1,23 @@
+## fibar_lib (humble) - 1.0.1-1
+
+The packages in the `fibar_lib` repository were released into the `humble` distro by running `/usr/bin/bloom-release --new-track --rosdistro humble --track humble fibar_lib` on `Sat, 06 Dec 2025 17:03:26 -0000`
+
+The `fibar_lib` package was released.
+
+Version of package(s) in repository `fibar_lib`:
+
+- upstream repository: https://github.com/ros-event-camera/fibar_lib.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
