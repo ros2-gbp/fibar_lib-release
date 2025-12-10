@@ -1,0 +1,12 @@
+Source: ros-jazzy-fibar-lib
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), clang-tidy, cmake, libgtest-dev <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-fibar-lib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, clang-tidy, ros-jazzy-ros-workspace
+Description: FIBAR event image reconstruction library
