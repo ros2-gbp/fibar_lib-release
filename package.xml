@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>fibar_lib</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>FIBAR event image reconstruction library</description>
   <maintainer email="bernd.pfrommer@gmail.com">Bernd Pfrommer</maintainer>
   <license>Apache License 2.0</license>
   <depend>clang-tidy</depend>
+  <buildtool_depend>cmake</buildtool_depend>
   <test_depend>gtest</test_depend>
   <export>
     <build_type>cmake</build_type>
