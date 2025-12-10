@@ -1,0 +1,23 @@
+ros-jazzy-fibar-lib (1.0.2-1noble) noble; urgency=high
+
+  * added buildtool_depend on cmake
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Wed, 10 Dec 2025 05:00:00 -0000
+
+ros-jazzy-fibar-lib (1.0.1-1noble) noble; urgency=high
+
+  * more templating to make spatial filter optional
+  * better error message for hot pixels
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Sat, 06 Dec 2025 05:00:00 -0000
+
+ros-jazzy-fibar-lib (1.0.0-1noble) noble; urgency=high
+
+  * initial commit
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Mon, 10 Nov 2025 05:00:00 -0000
+
+
