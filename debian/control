@@ -1,0 +1,12 @@
+Source: ros-lyrical-fibar-lib
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), clang-tidy, cmake, libgtest-dev <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/fibar_lib/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-fibar-lib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, clang-tidy, ros-lyrical-ros-workspace
+Description: FIBAR event image reconstruction library
